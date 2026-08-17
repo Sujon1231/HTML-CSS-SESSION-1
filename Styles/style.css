@@ -25,16 +25,16 @@
 .article ,#cow-type{
     width: 80%;
     margin: 60px auto 60px ;
-    background-color: blueviolet;
-    color: aliceblue;
+    background-color: rgb(243, 243, 243);
+    color: rgb(8, 11, 14);
     padding: 60px;
-    border-width: 10px;
+    /* border-width: 10px;
     border-color: rgb(0, 0, 0);
-    border-style: solid;
+    border-style: solid; */
 
     
 }
-.article h2{
+.article h2 ,#cow-type h2{
     font-size: 50px;
     text-align: center;
     border-width: 5px;
@@ -57,4 +57,20 @@
     /* font-size: 50px; */
     font-weight: bold;
     
+}
+.Cow-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* background: linear-gradient(pink, red);
+    padding: 60px; */
+}
+.Cow-img div{
+    min-width: 300px;
+}
+.Cow-img img{
+    width: 100%;
+}
+#cow-type{
+    background: linear-gradient(45deg, red, rgb(218, 198, 198), rgb(119, 235, 119));
 }
